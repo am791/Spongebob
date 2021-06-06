@@ -15,28 +15,10 @@
     }
   }
   
-  rect.left-eyebrow-1 { 
+  rect.eyebrow { 
     animation: fade 1s ease infinite;
   }
-  rect.left-eyebrow-2 { 
-    animation: fade 1s ease infinite;
-  }
-  rect.left-eyebrow-3 { 
-    animation: fade 1s ease infinite;
-  }
-  
-  rect.right-eyebrow-1 { 
-    animation: fade 1s ease infinite;
-    animation-delay: 1s;
-  }
-  rect.right-eyebrow-2 { 
-    animation: fade 1s ease infinite;
-    animation-delay: 1s;
-  }
-  rect.right-eyebrow-3 { 
-    animation: fade 1s ease infinite;
-    animation-delay: 1s;
-  }
+
   
   circle.left-white-1 {
     
@@ -52,239 +34,40 @@
     fill: white;
     stroke: black;
     stroke-width: 2;
-    x: 157;
-    y: 215;
     width: 167px;
     height: 35px;
   }
   
   .face {
     fill: #FFF56C;
-    x: 150;
-    y: 50;
     width: 180px;
     height: 180px;
-    rx: 15;
   }
   
-  .curl-top-1 {
-    fill: white;
-    cx: 186;
-    cy: 43;
-    r: 12;  
-  }
-  .curl-top-2 {
-    fill: white;
-    cx: 223;
-    cy: 43;
-    r: 12;  
-  }
-  .curl-top-3 {
-    fill: white;
-    cx: 258;
-    cy: 43;
-    r: 12;  
-  }
-  .curl-top-4 {
-    fill: white;
-    cx: 293;
-    cy: 43;
-    r: 12;  
+  .curl {
+    fill: white; 
   }
   
-  .curl-bottom-1 {
-    fill: white;
-    cx: 186;
-    cy: 237;
-    r: 12;  
-  }
-  .curl-bottom-2 {
-    fill: white;
-    cx: 223;
-    cy: 237;
-    r: 12;  
-  }
-  .curl-bottom-3 {
-    fill: white;
-    cx: 258;
-    cy:237;
-    r: 12;  
-  }
-  .curl-bottom-4 {
-    fill: white;
-    cx: 293;
-    cy: 237;
-    r: 12;  
-  }
-  
-  .curl-left-1 {
-    fill: white;
-    cx: 143;
-    cy: 190;
-    r: 12;  
-  }
-  .curl-left-2 {
-    fill: white;
-    cx: 143;
-    cy: 155;
-    r: 12;  
-  }
-  .curl-left-3 {
-    fill: white;
-    cx: 143;
-    cy: 120;
-    r: 12;  
-  }
-  .curl-left-4 {
-    fill: white;
-    cx: 143;
-    cy: 85;
-    r: 12;  
-  }
-  
-  .curl-right-1 {
-    fill: white;
-    cx: 336;
-    cy: 190;
-    r: 12;  
-  }
-  .curl-right-2 {
-    fill: white;
-    cx: 336;
-    cy: 155;
-    r: 12;  
-  }
-  .curl-right-3 {
-    fill: white;
-    cx: 336;
-    cy: 120;
-    r: 12;  
-  }
-  .curl-right-4 {
-    fill: white;
-    cx: 336;
-    cy: 85;
-    r: 12;  
-  }
-  
-  .left-eyebrow-1 {
+  .eyebrow {
     fill: black;
-    x: 145;
-    y: 135;
     width: 6px;
     height: 20px;
-    transform: rotate(-20deg);
   }
-  .left-eyebrow-2 {
-    fill: black;
-    x: 185;
-    y: 105;
-    width: 6px;
-    height: 20px;
-    transform: rotate(-10deg);
-  }
-  .left-eyebrow-3 {
-    fill: black;
-    x: 230;
-    y: 31;
-    width: 6px;
-    height: 20px;
-    transform: rotate(10deg);
-  }
-  .left-eye {
+  .eye {
     fill: white;
-    cx: 208;
-    cy: 120;
-    rx: 32;
-    ry: 35;
     stroke: black;
     stroke-width: 2;
   }
-  .left-blue-eye {
+  .blue-eye {
     fill: #47a9ff;
-    cx: 210;
-    cy: 122;
-    r: 20;
     stroke: black;
     stroke-width: 1.5;
   }
-  .left-black-eye {
+  .black-eye {
     fill: black;
-    cx: 210;
-    cy: 122;
-    r: 10;
   }
-  .left-white-1 {
+  .white-eye {
     fill: white;
-    cx: 204;
-    cy: 115;
-    r: 3;
-  }
-  .left-white-2 {
-    fill: white;
-    cx: 215;
-    cy: 130;
-    r: 1.5;
-  }
-  
-  .right-eyebrow-1 {
-    fill: black;
-    x: 205;
-    y: 155;
-    width: 6px;
-    height: 20px;
-    transform: rotate(-20deg);
-  }
-  .right-eyebrow-2 {
-    fill: black;
-    x: 250;
-    y: 115;
-    width: 6px;
-    height: 20px;
-    transform: rotate(-10deg);
-  }
-  .right-eyebrow-3 {
-    fill: black;
-    x: 295;
-    y: 21;
-    width: 6px;
-    height: 20px;
-    transform: rotate(10deg);
-  }
-  .right-eye {
-    fill: white;
-    cx: 272;
-    cy: 120;
-    rx: 32;
-    ry: 35;
-    stroke: black;
-    stroke-width: 2;
-  }
-  .right-blue-eye {
-    fill: #47a9ff;
-    cx: 272;
-    cy: 122;
-    r: 20;
-    stroke: black;
-    stroke-width: 1.5;
-  }
-  .right-black-eye {
-    fill: black;
-    cx: 272;
-    cy: 122;
-    r: 10;
-  }
-  .right-white-1 {
-    fill: white;
-    cx: 266;
-    cy: 115;
-    r: 3;
-  }
-  .right-white-2 {
-    fill: white;
-    cx: 277;
-    cy: 130;
-    r: 1.5;
   }
   
   .nose {
@@ -293,112 +76,29 @@
     fill: #FFF56C;
   }
   .lower-nose {
-    
     fill: #FFF56C;
   }
   
-  .left-cheek {
+  .cheek {
     fill: #FFF56C;
     stroke: red;
-    stroke-width: 3;
-    cx: 178;
-    cy: 144;
-    rx: 14;
-    ry: 10; 
+    stroke-width: 3; 
   }
-  .lower-left-cheek {
-    fill: #FFF56C;
-    cx: 178;
-    cy: 148;
-    rx: 12;
-    ry: 8; 
+  .lower-cheek {
+    fill: #FFF56C; 
   }
-  .left-cheek-shadow {
+  .cheek-shadow {
     fill: #fa7e36;
     opacity: 0.3;
-    cx: 178;
-    cy: 147;
-    rx: 10;
-    ry: 7; 
   }
-  .left-cheek-pimple-1 {
+  .cheek-pimple {
     fill: red;
-    cx: 174;
-    cy: 144.5;
-    r: 0.8;
   }
-  .left-cheek-pimple-2 {
-    fill: red;
-    cx: 182;
-    cy: 143.5;
-    r: 0.8;
-  }
-  .left-cheek-pimple-3 {
-    fill: red;
-    cx: 178;
-    cy: 145.5;
-    r: 0.8;
-  }
-  .left-pimple-sparkle {
+  .cheek-pimple-sparkle {
     opacity: 0.6;
     fill: white;
-    cx: 180;
-    cy: 141.5;
-    rx: 6;
-    ry: 4;
   }
-  
-  .right-cheek {
-    fill: #FFF56C;
-    stroke: red;
-    stroke-width: 3;
-    cx: 304;
-    cy: 144;
-    rx: 14;
-    ry: 10; 
-  }
-  .lower-right-cheek {
-    fill: #FFF56C;
-    cx: 304;
-    cy: 148;
-    rx: 12;
-    ry: 8; 
-  }
-  .right-cheek-shadow {
-    fill: #fa7e36;
-    opacity: 0.3;
-    cx: 304;
-    cy: 147;
-    rx: 10;
-    ry: 7; 
-  }
-  .right-cheek-pimple-1 {
-    fill: red;
-    cx: 300;
-    cy: 144.5;
-    r: 0.8;
-  }
-  .right-cheek-pimple-2 {
-    fill: red;
-    cx: 308;
-    cy: 143.5;
-    r: 0.8;
-  }
-  .right-cheek-pimple-3 {
-    fill: red;
-    cx: 304;
-    cy: 145.5;
-    r: 0.8;
-  }
-  .right-pimple-sparkle {
-    opacity: 0.6;
-    fill: white;
-    cx: 306;
-    cy: 141.5;
-    rx: 6;
-    ry: 4;
-  }
-  
+   
   .mouth-cheek {
     stroke: black;
    fill: transparent;;
@@ -427,16 +127,10 @@
     stroke: black;
     stroke-width: 2;
     fill: red;
-    cx: 240;
-    cy: 230;
-    rx: 8;
-    ry: 14;
   }
   
   .tie-clip-cut {
     fill: #FFF56C;
-    x: 231;
-    y: 213;
     width: 18px;
     height: 15px;
   }
@@ -445,8 +139,6 @@
     fill: brown;
     stroke: black;
     stroke-width: 2;
-    x: 157;
-    y: 250;
     width: 167px;
     height: 30px;
   }
@@ -463,6 +155,8 @@
   .pants-drop-fill {
     fill: brown;
     stroke: transparent;
+    width: 31px;
+    height: 9px;
   }
   
   .leg {
@@ -470,7 +164,4 @@
     stroke: black;  
     stroke-width: 2;
   }
-  .leg-fill {
-    fill: white;
-    stroke: transparent;  
-  }
+  
