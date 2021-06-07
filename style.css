@@ -160,8 +160,25 @@
   }
   
   .leg {
-    fill: white;
+    fill: #FFF56C;
     stroke: black;  
     stroke-width: 2;
   }
-  
+.leg-fill {
+  fill: #FFF56C;
+}
+.sock-blue {
+  fill: white;
+  stroke: blue;
+  stroke-width: 2;
+}
+.sock-red {
+  fill: white;
+  stroke: red;
+  stroke-width: 2;
+}
+.sock-white {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+}
