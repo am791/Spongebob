@@ -1,184 +1,193 @@
 @keyframes fade {
-    from {
-      opacity: 0.1;
-    }
-    to {
-      opacity: 1;
-    }
+  from {
+    opacity: 0.1;
   }
-  @keyframes zoom {
-    from {
-      r: 3;
-    }
-    to {
-      r: 3.1;
-    }
+  to {
+    opacity: 1;
   }
-  
-  rect.eyebrow { 
-    animation: fade 1s ease infinite;
+}
+@keyframes zoom {
+  from {
+    r: 3;
   }
+  to {
+    r: 3.1;
+  }
+}
 
-  
-  circle.left-white-1 {
-    
-  }
-  
-  .Spongebob {
-    background-color: white;
-    height: 30rem;
-    width: 30rem;
-  }
-  
-  .shirt {
-    fill: white;
-    stroke: black;
-    stroke-width: 2;
-    width: 167px;
-    height: 35px;
-  }
-  
-  .face {
-    fill: #FFF56C;
-    width: 180px;
-    height: 180px;
-  }
-  
-  .curl {
-    fill: white; 
-  }
-  
-  .eyebrow {
-    fill: black;
-    width: 6px;
-    height: 20px;
-  }
-  .eye {
-    fill: white;
-    stroke: black;
-    stroke-width: 2;
-  }
-  .blue-eye {
-    fill: #47a9ff;
-    stroke: black;
-    stroke-width: 1.5;
-  }
-  .black-eye {
-    fill: black;
-  }
-  .white-eye {
-    fill: white;
-  }
-  
-  .nose {
-    stroke: black;
-    stroke-width: 2; 
-    fill: #FFF56C;
-  }
-  .lower-nose {
-    fill: #FFF56C;
-  }
-  
-  .cheek {
-    fill: #FFF56C;
-    stroke: red;
-    stroke-width: 3; 
-  }
-  .lower-cheek {
-    fill: #FFF56C; 
-  }
-  .cheek-shadow {
-    fill: #fa7e36;
-    opacity: 0.3;
-  }
-  .cheek-pimple {
-    fill: red;
-  }
-  .cheek-pimple-sparkle {
-    opacity: 0.6;
-    fill: white;
-  }
-   
-  .mouth-cheek {
-    stroke: black;
-   fill: transparent;;
-    stroke-width: 2;
-  }
-  
-  .teeth {
-    stroke: black;
-    fill: white;
-    stroke-width: 2;
-  }
-  .teeth-shade {
-    fill: #D3D3D3;
-  }
-  
-  .pimples {
-    fill: #c2b25f;
-  }
-  
-  .collar {
-    stroke: black;
-    stroke-width: 2;  
-  }
-  
-  .tie-upper {
-    stroke: black;
-    stroke-width: 2;
-    fill: red;
-  }
-  
-  .tie-clip-cut {
-    fill: #FFF56C;
-    width: 18px;
-    height: 15px;
-  }
-  
-  .pants {
-    fill: brown;
-    stroke: black;
-    stroke-width: 2;
-    width: 167px;
-    height: 30px;
-  }
-  .pants-dash {
-    stroke: black;
-    stroke-width: 5;
-  }
-  
-  .pants-drop {
-    fill: brown;
-    stroke: black;
-    stroke-width: 2;
-  }
-  .pants-drop-fill {
-    fill: brown;
-    stroke: transparent;
-    width: 31px;
-    height: 9px;
-  }
-  
-  .leg {
-    fill: #FFF56C;
-    stroke: black;  
-    stroke-width: 2;
-  }
-.leg-fill {
-  fill: #FFF56C;
+rect.eyebrow { 
+  animation: fade 1s ease infinite;
 }
-.sock-blue {
-  fill: white;
-  stroke: blue;
-  stroke-width: 2;
+
+
+circle.left-white-1 {
+  
 }
-.sock-red {
-  fill: white;
-  stroke: red;
-  stroke-width: 2;
+
+.Spongebob {
+  background-color: white;
+  height: 30rem;
+  width: 30rem;
 }
-.sock-white {
+
+.shirt {
   fill: white;
   stroke: black;
   stroke-width: 2;
+  width: 167px;
+  height: 35px;
+}
+
+.face {
+  fill: #FFF56C;
+  width: 180px;
+  height: 180px;
+}
+
+.curl {
+  fill: white; 
+}
+
+.eyebrow {
+  fill: black;
+  width: 6px;
+  height: 20px;
+}
+.eye {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+}
+.blue-eye {
+  fill: #47a9ff;
+  stroke: black;
+  stroke-width: 1.5;
+}
+.black-eye {
+  fill: black;
+}
+.white-eye {
+  fill: white;
+}
+
+.nose {
+  stroke: black;
+  stroke-width: 2; 
+  fill: #FFF56C;
+}
+.lower-nose {
+  fill: #FFF56C;
+}
+
+.cheek {
+  fill: #FFF56C;
+  stroke: red;
+  stroke-width: 3; 
+}
+.lower-cheek {
+  fill: #FFF56C; 
+}
+.cheek-shadow {
+  fill: #fa7e36;
+  opacity: 0.3;
+}
+.cheek-pimple {
+  fill: red;
+}
+.cheek-pimple-sparkle {
+  opacity: 0.6;
+  fill: white;
+}
+ 
+.mouth-cheek {
+  stroke: black;
+ fill: transparent;;
+  stroke-width: 2;
+}
+
+.teeth {
+  stroke: black;
+  fill: white;
+  stroke-width: 2;
+}
+.teeth-shade {
+  fill: #D3D3D3;
+}
+
+.pimples {
+  fill: #c2b25f;
+}
+
+.collar {
+  stroke: black;
+  stroke-width: 2;  
+}
+
+.tie-upper {
+  stroke: black;
+  stroke-width: 2;
+  fill: red;
+}
+
+.tie-clip-cut {
+  fill: #FFF56C;
+  width: 18px;
+  height: 15px;
+}
+
+.pants {
+  fill: brown;
+  stroke: black;
+  stroke-width: 2;
+  width: 167px;
+  height: 30px;
+}
+.pants-dash {
+  stroke: black;
+  stroke-width: 5;
+}
+
+.pants-drop {
+  fill: brown;
+  stroke: black;
+  stroke-width: 2;
+}
+.pants-drop-fill {
+  fill: brown;
+  stroke: transparent;
+  width: 31px;
+  height: 9px;
+}
+
+.leg {
+  fill: #FFF56C;
+  stroke: black;  
+  stroke-width: 2;
+}
+.leg-fill {
+fill: #FFF56C;
+}
+.sock-blue {
+fill: white;
+stroke: blue;
+stroke-width: 2;
+}
+.sock-red {
+fill: white;
+stroke: red;
+stroke-width: 2;
+}
+.sock-white {
+fill: white;
+stroke: black;
+stroke-width: 2;
+}
+
+.shoe-shade {
+fill: grey;
+stroke: grey;
+}
+.shoe-shine {
+stroke: white;
+fill: white;
 }
