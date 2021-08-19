@@ -8,8 +8,7 @@ Everything is done with HTML/CSS using SVG elements like:
 - Path
 
 ## How to use the code?
-> Clone the main repository in your local device and run the index.html file by double clicking on it.
-* **Note**: No need to use any npm script to run, since whole code just contain HTML and CSS.
+> Clone the main repository in your local device and run the ``` index.html ``` file.
 
 ## Want to contribute to the project?
 > Fork the repository, apply your changes and send me a pull request!
